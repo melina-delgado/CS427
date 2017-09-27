@@ -1,0 +1,20 @@
+ESTIMATE of time to complete assignment: 6 hours
+      Time    Time
+Date  Started Spent Work completed
+----  ------- ----  --------------
+9/11  3:00pm  1:00  read assignment and starting reading from cin
+9/11  4:00pm  1:00  implemented getline and some edge cases
+9/11  11:00pm 1:00  began making calculations
+9/12  12:00am 1:00  finish up problem set
+9/13  11:00am 1:00  fixing up problems with TA
+              ----
+              4:00  TOTAL time spent
+
+I discussed my solution with: no one
+
+I had the hardest time figuring out how to read from stdin.
+Then I realized that C++ is less tricky than C and found it easier.
+Then, I stored values into doubles, and had issues with retaining floating
+point values. I also forgot to convert from degrees to radians for the final
+calculation. My calculations are still off from the sample, but I believe this is
+because of how I handled negative inputs.
