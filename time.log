@@ -1,0 +1,20 @@
+ESTIMATE of time to complete assignment: 10 hours
+
+	   Start  Time
+     Date  Time   Spent Work completed
+     ----  -----  ----  --------------
+     9/03  10:15  1:20  Read assignment and documentation for find
+     9/05  20:15  1:00  Played with Hwk1/nfind to discover how it works
+     9/08  12:45  3:30  Sketched/implemented solution using recursion
+     9/08  14:00  0:40  Recursive solution cannot handle all cases
+     9/10  21:20  4:00  Sketched new solution using two stacks and a queue
+     9/12  09:00  4:45  Wrote/typed-in program; eliminated compile-time errors
+     9/13  20:00  4:30  Debugged program; it passes every public test
+		 -----
+		 19:45  TOTAL time spent
+
+     I discussed my solution with: Peter Salovey, Ben Polak, Tamar Gendler,
+     and Marvin Chun.
+
+     <A brief discussion of the major difficulties encountered>
+
