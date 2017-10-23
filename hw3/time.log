@@ -1,0 +1,17 @@
+ESTIMATE of time to complete assignment: 10 hours
+
+	   Start  Time
+     Date  Time   Spent Work completed
+     ----  -----  ----  --------------
+     10/10 7:20   3:00  Read assignment and documentation for assignment
+     10/10 11:00  4:00  Writing conway.cpp
+     10/11 1:00   4:00  Finished writing conway.cpp
+     10:12 6:00   5:00  Finished pset, now running tests
+		 -----
+		 16:00  TOTAL time spent
+
+     I discussed my solution with no one.
+
+
+     I am still shaky on my understanding of copy constructors, operator overloading, etc. I believe it would've been a much better problem set if I understood these. Otherwise, I spent a lot of time learning them at the same time.
+
