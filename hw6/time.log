@@ -1,0 +1,22 @@
+ESTIMATE of time to complete assignment: 10 hours
+
+	   Start  Time
+     Date  Time   Spent Work completed
+     ----  -----  ----  --------------
+     11/29  18:00  4:00  Read assignment and documentation for Checkers 
+     11/30  19:00  3:00  Began Board class 
+     12/1   18:00  1:00  Began Piece class
+     12/2   17:00  1:00  Ran public tests, completely refactored!
+		 -----
+		 9:00  TOTAL time spent
+
+     I discussed my solution with Addie Elwood. I really only asked her questions
+     with errors I was having. She had already finished the problem set and it was less
+     collaborative/sharing and more of her just helping me out.
+
+     Most of the difficulty I had with the problem set was understanding it. Then, I think
+     my understanding of inheritance was a little shaky and I had to read up on some of how
+     inheriting variables and initializing them in the base class worked. Then I read up on 
+     smart pointers because I was unfamiliar with them and I wanted to learn. All in all, I
+     liked this problem set because it challenged my understanding of how inheritance works.
+

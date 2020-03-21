@@ -1,0 +1,15 @@
+ESTIMATE of time to complete assignment: 10 hours
+
+	   Start  Time
+     Date  Time   Spent Work completed
+     ----  -----  ----  --------------
+     10/24 10:00  3:00  Read assignment and documentation
+     10/25 11:00  4:00  Coded cooccur.cpp file 
+     10/26 19:00  4:00  coded up main_cooccur 
+		 -----
+		 11:00  TOTAL time spent
+
+     I discussed my solution with: Addie Elwood
+
+     I had a hard time understanding the spec since it was a little less descriptive than previous ones.
+     I also struggled with iterators and using STL containers.

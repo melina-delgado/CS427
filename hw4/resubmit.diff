@@ -1,0 +1,42 @@
+Melina Delgado Assignment 4 resubmission:
+cooccur.cpp was the main issue. I did not account for errors
+involving .at() in my getVector function. Also, in my getVector
+function, I did not account for situations where a word's count may
+be 0, in which case the cooccurence matrix should not try to divide 
+by 0.
+
+main_cooccur.cpp
+57a58,61
+>     if(row[0] == -1.0)
+>     {
+>       break;
+>     }
+61d60
+< 
+
+cooccur.cpp
+82,83d80
+<   auto pos = keyPos.at(keyword);
+<   auto count = keyMap.at(keyword);
+85,88c82,97
+<   for(int i = 0; i < nkeywords; i++)
+<   {
+<     double num = matrix[pos][i]/count;
+<     ret.push_back(num);
+---
+>   try {
+>     auto pos = keyPos.at(keyword);
+>     auto count = keyMap.at(keyword);
+>     for(int i = 0; i < nkeywords; i++)
+>     {
+>       double num;
+>       if(count != 0.0)
+>         num = matrix[pos][i]/count;
+>       else
+>         num = 0.0;
+>       ret.push_back(num);
+>     }
+>   } catch(const std::out_of_range& oor) {
+>     std::cerr << "Out of range error: "<< oor.what() << std::endl;
+>     ret.clear();
+>     ret.push_back(-1.0);

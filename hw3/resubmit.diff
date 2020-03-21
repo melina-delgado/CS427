@@ -1,0 +1,45 @@
+Melina Delgado Hwk2 resubmission:
+I realize that for inputs of different widths and heights,
+my code was reading in the incorrect variables. Also, when I tried
+to input indices out of bounds my code ran fine, but it failed test caess
+where makeMove received large coordinates. I added a line in hopes of detecting
+this. I also added file error-checking as well as some cmd-line input error checking.
+
+conway.cpp
+71c71
+<       if(d >> rowLen)
+---
+>       if(d >> columnLen)
+73c73
+<         if(d >> columnLen)
+---
+>         if(d >> rowLen)
+180a181,183
+>     //check if in bounds
+>     if(fromR >= rowLen || fromC >= columnLen || toR >= rowLen || toC >= columnLen)
+>       return false;
+240a244,246
+>     if(!isLegalMove(fromR, fromC, toR, toC))
+>       return;
+> 
+mainConway.cpp
+58a59,63
+>       else
+>       {
+>         std::cerr << "Invalid argument" << std::endl;
+>         exit(1);
+>       }
+66c71,79
+<     puzzle = cs427_527::Conway(File);
+---
+>     if(File.is_open() && File.peek() != std::ifstream::traits_type::eof())
+>     {
+>       puzzle = cs427_527::Conway(File);
+>     }
+>     else
+>     {
+>       std::cerr << "Invalid file given or file is empty" << std::endl;
+>       exit(1);
+>     }
+149a163
+>           break;

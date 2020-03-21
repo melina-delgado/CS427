@@ -1,0 +1,20 @@
+ESTIMATE of time to complete assignment: 10 hours
+
+	   Start  Time
+     Date  Time   Spent Work completed
+     ----  -----  ----  --------------
+     10/11 12:00  3:00  Started reading conway spec
+     10/11 16:00  2:00  Implemented islegalmove and makemove
+     10/11 20:00  4:00  working on operator and copy constructor
+     10/12 18:00  4:00  Passing tests
+		 -----
+		 13:00  TOTAL time spent
+
+     I discussed my solution with no other student.
+
+     I had major difficulties understanding how the copy constructor worked
+     and the assignment operator. Also had a to learn how to read in files
+     in C++. Also, understanding the Conway game was difficult at first,
+     but once I understood it I feel like I became better at implementing the
+     game. I ended up passing all the test cases in the end.
+

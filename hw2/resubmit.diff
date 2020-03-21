@@ -1,0 +1,32 @@
+Melina Delgado hw2 resubmission:
+In mainSpinout.cpp, my while condition was slightly incorrect, not 
+printing "illegal move" for moves of indices < 0 or > 7.
+For spinout.cpp, Professor Glenn and I found a bug in office hours on 12/18 where
+my isLegalMove function had an incorrect if statement. I fixed it in the diff below.
+
+mainSpinout.cpp
+129c129
+<       while((cin >> index)&&(!cin.eof())&&((index < 7)&&(index>0)))
+---
+>       while(cin >> index && !cin.eof())
+156c156
+<       while((cin >> index)&&(!(cin.eof()))&&((index < 7)&&(index>0)))
+---
+>       while(cin >> index && !cin.eof())
+
+spinout.cpp
+39a40,43
+>     if(i < 0 || i > 6)
+>     {
+>       return false;
+>     }
+53c57
+<         if(puzzle[j] == '-')
+---
+>         if(puzzle[j] != '-')
+55c59
+<           return true;
+---
+>           return false;
+57a62
+>       return true;

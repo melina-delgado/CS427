@@ -1,0 +1,18 @@
+ESTIMATE of time to complete assignment: 10 hours
+
+	   Start  Time
+     Date  Time   Spent Work completed
+     ----  -----  ----  --------------
+     11/12 18:00  8:00  Read spec, read up on inheritance and polymorphism, implemented bulk of problem set
+     11/13 14:30  3:00  Resolved issues, made functions purely virtual
+     11/13 5:30   1:00  Running tests
+		 -----
+		 12:00  TOTAL time spent
+
+     Did not discuss solution.
+
+     The major difficulty I encountered was learning how to properly inherit in C++. 
+     I understood that basic concepts but learning how multiple files interact with each other and 
+     dealing with compiling errors took the bulk of my time. I also did a lot of research on virtual
+     functions.
+
